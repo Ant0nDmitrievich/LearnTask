@@ -9,4 +9,4 @@ if (a == b * b)
 {
     Console.WriteLine("Да, первое число является квадратом второго");
 };
-else Console.WriteLine("Нет");
+Console.WriteLine("Нет");
