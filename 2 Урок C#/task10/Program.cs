@@ -11,4 +11,4 @@ int num = Convert.ToInt32(Console.ReadLine());
 int rem = num / 10;
 int res = rem % 10;
 
-Console.WriteLine($"Второе число равно {res}");
+Console.WriteLine($"{num} -> {res}");
