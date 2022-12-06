@@ -11,4 +11,15 @@ if (n < 100)
     {
         Console.WriteLine($"{n} -> третьей цифры нет");
     }
-    
+else if (n < 1000)
+    {
+        
+        int res = n % 10;
+        Console.WriteLine($"{n} -> {res}");
+    }
+else   
+    {   
+        int rem = n / 100;
+        int res = rem % 10;
+        Console.WriteLine($"{n} -> {res}");
+    }
