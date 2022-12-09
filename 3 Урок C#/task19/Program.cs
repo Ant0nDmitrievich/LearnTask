@@ -10,4 +10,11 @@
 // 23432 -> да
 
 Console.WriteLine("Введите пятизначное число");
-int num = Convert.ToInt32(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
+
+int Check(int num)
+{
+    int a1 = num / 10000;
+    int a2 = num % 10;
+    return num;
+}
