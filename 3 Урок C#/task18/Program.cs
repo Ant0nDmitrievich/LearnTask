@@ -1,13 +1,13 @@
 ﻿Console.WriteLine("Введите номер четверти: ");
-string number = Console.ReadLine();
+int num = Convert.ToInt32(Console.ReadLine());
 
-string Range(string num)
+string Range(int num)
     {
-        if (num == "1") return "x > 0 и y > 0";
-        if (num == "2") return "x < 0 и y > 0";
-        if (num == "3") return "x < 0 и y < 0";
-        if (num == "4") return "x > 0 и y < 0";
-        return "Введены некорректные данные";
+        if (num == 1) return "x > 0 и y > 0";
+        if (num == 2) return "x < 0 и y > 0";
+        if (num == 3) return "x < 0 и y < 0";
+        if (num == 4) return "x > 0 и y < 0";
+        return "Не принадлежит не одной из четвертей";
     }
-string range = Range(number);
+string range = Range(num);
 Console.WriteLine(range);
