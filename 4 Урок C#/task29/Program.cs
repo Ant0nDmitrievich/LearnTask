@@ -10,14 +10,14 @@ void FillArray(int[] arr)
         arr[i] = rnd.Next(0 , 2);
     }
 }
-Console.Write("[");
 void PrintArray (int[] arr)
 {
+    Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
         Console.Write($"{arr[i]},");
     }
+    Console.Write("[");
 }
 FillArray(array);
 PrintArray(array);
-Console.Write("]");
