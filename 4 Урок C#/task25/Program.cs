@@ -9,8 +9,7 @@ Console.Write("A: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("B: ");
 int b = Convert.ToInt32(Console.ReadLine());
-
-int Exponent (int x, int z)
+int Exponent(int x, int z)
 {
     int y = a;
     for (int i = 2; i <= z; i++)
@@ -20,4 +19,15 @@ int Exponent (int x, int z)
     return y;
 }
 int exponent = Exponent(a, b);
-Console.WriteLine($"{a}, {b} -> {exponent}");
+if (b == 0)
+{
+    Console.WriteLine($"{a}, {b} -> 1");
+}
+else
+{
+    if (b >= 0)
+    {
+        Console.WriteLine($"{a}, {b} -> {exponent}");
+    }
+    else Console.WriteLine($"Некорректно введено число степени");
+}
