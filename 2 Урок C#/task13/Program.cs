@@ -7,19 +7,21 @@
 
 Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
-if (n < 100)
+int ThirdDigit (int num)
+{
+    while (num > 1000)
     {
-        Console.WriteLine($"{n} -> третьей цифры нет");
+        num = num / 10;
     }
-else if (n < 1000)
-    {
-        
-        int res = n % 10;
-        Console.WriteLine($"{n} -> {res}");
-    }
-else   
-    {   
-        int rem = n / 100;
-        int res = rem % 10;
-        Console.WriteLine($"{n} -> {res}");
-    }
+    return num % 10;
+}
+if (n < 0) n = -n;
+if (n > 99)
+{
+    int result =ThirdDigit(n);
+    Console.WriteLine($"{n} -> {result}");
+}
+else
+{
+    Console.WriteLine($"{n} -> Третьей цифры нет");
+}
