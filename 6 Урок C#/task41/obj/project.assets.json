@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GeeekBrains\\Уроки C#\\6 Урок C#\\task 41\\task 41.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GeeekBrains\\Уроки C#\\6 Урок C#\\task41\\task 41.csproj",
       "projectName": "task 41",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\GeeekBrains\\Уроки C#\\6 Урок C#\\task 41\\task 41.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\GeeekBrains\\Уроки C#\\6 Урок C#\\task41\\task 41.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\GeeekBrains\\Уроки C#\\6 Урок C#\\task 41\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\GeeekBrains\\Уроки C#\\6 Урок C#\\task41\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

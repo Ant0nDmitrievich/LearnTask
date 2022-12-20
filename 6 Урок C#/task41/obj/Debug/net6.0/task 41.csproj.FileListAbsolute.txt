@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\bin\Debug\net6.0\task 41.exe
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\bin\Debug\net6.0\task 41.deps.json
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\bin\Debug\net6.0\task 41.runtimeconfig.json
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\bin\Debug\net6.0\task 41.dll
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\bin\Debug\net6.0\task 41.pdb
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.dll
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\refint\task 41.dll
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.pdb
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\task 41.genruntimeconfig.cache
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\6 Урок C#\task41\obj\Debug\net6.0\ref\task 41.dll
