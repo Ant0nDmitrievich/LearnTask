@@ -2,36 +2,41 @@
 //  Напишите программу, которая покажет количество чётных чисел в массиве.
 
 // [345, 897, 568, 234] -> 2
-
-int[] array = new int[4];
+int[] ar = new int[4];
 void FillArray(int[] array)
 {
     Random rnd = new Random();
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i += 1)
     {
-        array[i] = rnd.Next(100 , 1000);
+        array[i] = rnd.Next(99, 1000);
     }
 }
-void PrintArray (int[] array)
+int IfArray(int[] array)
+{
+    int count = 0;
+    int res = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] % 2 == 0)
+        {
+            count++;
+        }
+    }
+    res = count;
+    return count;
+    
+}
+void PrintArray(int[] array)
 {
     Console.Write("[");
-    Console.Write($"{array[0]}");
-    for (int i = 1; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i += 1)
     {
-        Console.Write($", ");
-        Console.Write($"{array[i]}");
+        if (i < array.Length - 1) Console.Write($"{array[i]}, ");
+        else Console.Write($"{array[i]}");
     }
-    Console.Write("]");
+    Console.WriteLine("]");
 }
-int GetEvenNum(int array)
-{
-    int even = 0;
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (array[i] / 2) even ++; 
-    }
-    return even;
-}
-FillArray(array);
-GetEvenNum(array);
-PrintArray(array);
+FillArray(ar);
+PrintArray(ar);
+int result = IfArray(ar);
+Console.WriteLine(result);

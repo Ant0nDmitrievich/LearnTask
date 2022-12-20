@@ -27,20 +27,20 @@ void PrintArray(double[] array)
 
 double FindMax(double[] ar) 
 {
-    double resu = 0;
+    double result = 0;
     for (int i = 1; i < ar.Length; i++)
     {
         double maximal = ar[i];
         if (maximal > ar[i - 1]);
         else maximal = ar[i - 1];
-        resu = maximal;
+        result = maximal;
     }
     
-    return resu;
+    return result;
 }
 double FindMin(double[] ar) 
 {
-    double resu = 0;
+    double result = 0;
     for (int i = 1; i < ar.Length; i++)
     {
         double minimal = ar[i];
@@ -48,7 +48,7 @@ double FindMin(double[] ar)
 
     }
     
-    return resu;
+    return result;
 }
 double Answer(double min, double max) 
 {
