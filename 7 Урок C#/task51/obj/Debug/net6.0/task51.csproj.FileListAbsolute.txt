@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\7 Урок C#\task51\obj\Debug\net6.0\task51.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\7 Урок C#\task51\obj\Debug\net6.0\task51.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\7 Урок C#\task51\obj\Debug\net6.0\task51.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\7 Урок C#\task51\obj\Debug\net6.0\task51.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GeeekBrains\Уроки C#\7 Урок C#\task51\obj\Debug\net6.0\task51.csproj.CoreCompileInputs.cache
